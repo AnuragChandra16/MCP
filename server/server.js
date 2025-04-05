@@ -64,7 +64,8 @@ app.post('/test-server', async (req, res) => {
 
     try {
         const result = await mcpHandler.testMCPServer(url, type, config || {});
-        res.json(result);
+res.status(result.status || 200).json(result);
+
     } catch (error) {
         console.error("Error testing server:", error);
         res.status(500).json({ error: error.message || "Server test failed" });
