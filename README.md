@@ -83,9 +83,16 @@ Click outside the input field or press Tab to trigger the test.
 
 View the formatted server response instantly below the input.
 
-
+First page
 ![image](https://github.com/user-attachments/assets/ff425956-e1dc-4cdc-ba6f-52fd7bf93474)
+Enter url and correct message
 ![image](https://github.com/user-attachments/assets/bb421f74-03ab-4ca0-87fa-394b9eed6b1e)
-![image](https://github.com/user-attachments/assets/1775cd15-9513-47cb-9641-855ae6782b5b)
+Showing 404 error correctly (page not on server)
+![image](https://github.com/user-attachments/assets/a287c46b-a8bf-4953-aa4a-ee203b4eb2c4)
+Error 500 (server issue)
+![image](https://github.com/user-attachments/assets/85fa9694-9e08-4dc4-9f98-96d39eac696f)
+
+
+
 
 
