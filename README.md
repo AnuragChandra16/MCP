@@ -53,8 +53,10 @@ Usage
 Navigate to the frontend in your browser (usually http://127.0.0.1:5500/public/index.html if using Live Server)
 Enter one of the following MCP server URLs in the input field:
 
-(https://registry.smithery.ai/servers/@smithery-ai/server-sequential-thinking)
+https://registry.smithery.ai/servers/@smithery-ai/server-sequential-thinking
+
 https://registry.smithery.ai/servers/@browserbasehq/mcp-browserbase
+
 https://registry.smithery.ai/servers/e2b
 
 
