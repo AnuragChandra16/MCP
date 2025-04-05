@@ -239,7 +239,11 @@
             try {
                 responseBox.innerHTML = '<span class="key">Status</span>: <span class="value">Connecting...</span>';
                 
-                const response = await fetch(url);
+                const response = await fetch('https://mcp-emi0.onrender.com/test-server', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url, type: 'http' }) // 'type' is important for backend
+});
                 const contentType = response.headers.get('content-type');
                 
                 if (contentType && contentType.includes('application/json')) {
