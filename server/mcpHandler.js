@@ -133,19 +133,40 @@ const WebSocket = require('ws');
 /**
  * Test MCP HTTP (REST) API.
  */
+//recent
+// async function testMCPAPI(url, headers = {}) {
+//     try {
+//         const response = await axios.get(url, { headers });
+//         return { success: true, type: 'http', data: response.data };
+//     } catch (error) {
+//         return {
+//             success: false,
+//             type: 'http',
+//             error: error.response?.statusText || error.message,
+//             statusCode: error.response?.status || null
+//         };
+//     }
+// }
+
 async function testMCPAPI(url, headers = {}) {
     try {
         const response = await axios.get(url, { headers });
-        return { success: true, type: 'http', data: response.data };
+        return {
+            success: true,
+            type: 'http',
+            data: response.data,
+            status: response.status
+        };
     } catch (error) {
         return {
             success: false,
             type: 'http',
             error: error.response?.statusText || error.message,
-            statusCode: error.response?.status || null
+            status: error.response?.status || 500
         };
     }
 }
+
 
 /**
  * Test MCP WebSocket.
