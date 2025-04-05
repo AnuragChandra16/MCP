@@ -82,3 +82,10 @@ https://registry.smithery.ai/servers/e2b
 Click outside the input field or press Tab to trigger the test.
 
 View the formatted server response instantly below the input.
+
+
+![image](https://github.com/user-attachments/assets/ff425956-e1dc-4cdc-ba6f-52fd7bf93474)
+![image](https://github.com/user-attachments/assets/bb421f74-03ab-4ca0-87fa-394b9eed6b1e)
+![image](https://github.com/user-attachments/assets/1775cd15-9513-47cb-9641-855ae6782b5b)
+
+
